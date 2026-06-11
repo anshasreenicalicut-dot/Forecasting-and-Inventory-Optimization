@@ -57,3 +57,33 @@ Streamlit Dashboard
 Demand Prediction Interface
 Interactive Charts
 Inventory Insights
+
+AI-Demand-Forecasting/
+│
+├── data/
+│   ├── train.csv
+│   ├── test.csv
+│   ├── cleaned_train.csv
+│   └── final_train.csv
+│
+├── models/
+│   └── xgboost_model.pkl
+│
+├── outputs/
+│   └── predictions.csv
+│
+├── notebooks/
+│   └── EDA.ipynb
+│
+├── src/
+│   ├── preprocess.py
+│   ├── eda.py
+│   ├── feature_engineering.py
+│   ├── train.py
+│   └── predict.py
+│
+├── app/
+│   └── streamlit_app.py
+│
+├── requirements.txt
+└── README.md
